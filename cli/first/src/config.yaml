@@ -1,0 +1,23 @@
+name: demo
+author: heguangfu
+version: 1.0.0
+about: demo app about clap
+
+args:
+- verbose:
+    help: verbose level
+    short: v
+    multiple: true
+- path:
+    help: target file you want to change
+    short: p
+    takes_value: true
+    # index: 1
+
+subcommand:
+- test:
+    about: does testing things
+    args:
+      - list:
+          help: list test values
+          short: l

@@ -1,0 +1,10 @@
+[package]
+name = "hello_world_macro"
+version = "0.1.0"
+authors = ["guangfuhe"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hello_world_macro_derive = {path = "hello_world_macro_derive" }
