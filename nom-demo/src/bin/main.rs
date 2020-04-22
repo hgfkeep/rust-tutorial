@@ -2,7 +2,6 @@
 #[macro_use] extern crate nom_trace;
 use nom::character::streaming::digit0;
 
-use nom::character::is_alphabetic;
 
 fn main(){
 
